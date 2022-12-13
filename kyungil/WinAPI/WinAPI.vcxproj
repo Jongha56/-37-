@@ -149,8 +149,6 @@
     <ClCompile Include="MainGame1130.cpp" />
     <ClCompile Include="PixelCollision.cpp" />
     <ClCompile Include="PixelScene.cpp" />
-    <ClCompile Include="SecondScene.cpp" />
-    <ClCompile Include="StartScene.cpp" />
     <ClCompile Include="Stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
     </ClCompile>
@@ -181,9 +179,7 @@
     <ClInclude Include="PixelCollision.h" />
     <ClInclude Include="PixelScene.h" />
     <ClInclude Include="RandomFunction.h" />
-    <ClInclude Include="SecondScene.h" />
     <ClInclude Include="SingletonBase.h" />
-    <ClInclude Include="StartScene.h" />
     <ClInclude Include="Stdafx.h" />
     <ClInclude Include="TempSoundManager.h" />
     <ClInclude Include="TempSoundScene.h" />
