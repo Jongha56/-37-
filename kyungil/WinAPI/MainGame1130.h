@@ -1,10 +1,10 @@
 #pragma once
 #include "GameNode.h"
-
+#include "JeongJongha.h"
 class MainGame1130 : public GameNode
 {
 private:
-
+	JeongJongha* _j;
 
 
 public:

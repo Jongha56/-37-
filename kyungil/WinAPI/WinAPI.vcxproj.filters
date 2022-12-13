@@ -90,6 +90,7 @@
     <ClCompile Include="MainGame1130.cpp">
       <Filter>MainGame</Filter>
     </ClCompile>
+    <ClCompile Include="JeongJongha.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Lesson\수업 내용.txt">
@@ -148,5 +149,6 @@
     <ClInclude Include="MainGame1130.h">
       <Filter>MainGame</Filter>
     </ClInclude>
+    <ClInclude Include="JeongJongha.h" />
   </ItemGroup>
 </Project>

@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -145,6 +145,7 @@
     <ClCompile Include="IWindowMessage.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="JeongJongha.cpp" />
     <ClCompile Include="KeyManager.cpp" />
     <ClCompile Include="MainGame1130.cpp" />
     <ClCompile Include="PixelCollision.cpp" />
@@ -174,6 +175,7 @@
     <ClInclude Include="IWindowMessage.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="JeongJongha.h" />
     <ClInclude Include="KeyManager.h" />
     <ClInclude Include="MainGame1130.h" />
     <ClInclude Include="PixelCollision.h" />
