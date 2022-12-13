@@ -14,8 +14,6 @@ HRESULT MainGame1130::init(void)
     _second = new SecondScene;
     _second->init();
 
-    _hw = new HW1201;
-    _hw->init();
 
     //ÇÙ½É
     _currentScene = _hw;

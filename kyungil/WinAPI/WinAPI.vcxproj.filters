@@ -66,24 +66,15 @@
     <ClCompile Include="GImage.cpp">
       <Filter>API FrameWork\Image</Filter>
     </ClCompile>
-    <ClCompile Include="base.cpp">
-      <Filter>MainGame</Filter>
-    </ClCompile>
     <ClCompile Include="WinMain1130.cpp">
       <Filter>API FrameWork\WInMain</Filter>
     </ClCompile>
-    <ClCompile Include="MainGame1130.cpp" />
     <ClCompile Include="SecondScene.cpp">
       <Filter>API FrameWork\ExampleClasses\Scene</Filter>
     </ClCompile>
     <ClCompile Include="StartScene.cpp">
       <Filter>API FrameWork\ExampleClasses\Scene</Filter>
     </ClCompile>
-    <ClCompile Include="HW1130_2.cpp">
-      <Filter>API FrameWork\ExampleClasses\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="TempSoundScene.cpp" />
-    <ClCompile Include="HW1201.cpp" />
     <ClCompile Include="TempSoundManager.cpp">
       <Filter>API FrameWork\Manager</Filter>
     </ClCompile>
@@ -98,6 +89,12 @@
     </ClCompile>
     <ClCompile Include="PixelScene.cpp">
       <Filter>API FrameWork\Utillity</Filter>
+    </ClCompile>
+    <ClCompile Include="TempSoundScene.cpp">
+      <Filter>API FrameWork\ExampleClasses\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame1130.cpp">
+      <Filter>MainGame</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -136,21 +133,12 @@
     <ClInclude Include="GImage.h">
       <Filter>API FrameWork\Image</Filter>
     </ClInclude>
-    <ClInclude Include="base.h">
-      <Filter>MainGame</Filter>
-    </ClInclude>
-    <ClInclude Include="MainGame1130.h" />
     <ClInclude Include="StartScene.h">
       <Filter>API FrameWork\ExampleClasses\Scene</Filter>
     </ClInclude>
     <ClInclude Include="SecondScene.h">
       <Filter>API FrameWork\ExampleClasses\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="HW1130_2.h">
-      <Filter>API FrameWork\ExampleClasses\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="TempSoundScene.h" />
-    <ClInclude Include="HW1201.h" />
     <ClInclude Include="TempSoundManager.h">
       <Filter>API FrameWork\Manager</Filter>
     </ClInclude>
@@ -165,6 +153,12 @@
     </ClInclude>
     <ClInclude Include="PixelScene.h">
       <Filter>API FrameWork\Utillity</Filter>
+    </ClInclude>
+    <ClInclude Include="TempSoundScene.h">
+      <Filter>API FrameWork\ExampleClasses\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame1130.h">
+      <Filter>MainGame</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

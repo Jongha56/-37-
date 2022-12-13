@@ -2,14 +2,12 @@
 #include "GameNode.h"
 #include "StartScene.h"
 #include "SecondScene.h"
-#include "HW1201.h"
 
 class MainGame1130 : public GameNode
 {
 private:
 	StartScene* _start;
 	SecondScene* _second;
-	HW1201* _hw;
 
 	GameNode* _currentScene;
 
