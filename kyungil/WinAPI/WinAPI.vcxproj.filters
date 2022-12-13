@@ -91,6 +91,7 @@
       <Filter>MainGame</Filter>
     </ClCompile>
     <ClCompile Include="JeongJongha.cpp" />
+    <ClCompile Include="KimDongKyu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Lesson\수업 내용.txt">
@@ -150,5 +151,6 @@
       <Filter>MainGame</Filter>
     </ClInclude>
     <ClInclude Include="JeongJongha.h" />
+    <ClInclude Include="KimDongKyu.h" />
   </ItemGroup>
 </Project>

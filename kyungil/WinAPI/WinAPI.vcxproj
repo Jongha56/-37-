@@ -147,6 +147,7 @@
     </ClCompile>
     <ClCompile Include="JeongJongha.cpp" />
     <ClCompile Include="KeyManager.cpp" />
+    <ClCompile Include="KimDongKyu.cpp" />
     <ClCompile Include="MainGame1130.cpp" />
     <ClCompile Include="PixelCollision.cpp" />
     <ClCompile Include="PixelScene.cpp" />
@@ -177,6 +178,7 @@
     </ClInclude>
     <ClInclude Include="JeongJongha.h" />
     <ClInclude Include="KeyManager.h" />
+    <ClInclude Include="KimDongKyu.h" />
     <ClInclude Include="MainGame1130.h" />
     <ClInclude Include="PixelCollision.h" />
     <ClInclude Include="PixelScene.h" />
