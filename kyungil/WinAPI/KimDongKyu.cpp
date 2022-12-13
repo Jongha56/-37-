@@ -21,6 +21,6 @@ void KimDongKyu::update(void)
 void KimDongKyu::render(void)
 {
 	for (int i = 0; i < 10; i++) {
-		TextOut(getMemDC(), i * 40, i * 20, xName[i], strlen(xName[i]));
+		TextOut(getMemDC(), (i+10) * 30, (i+10) * 20, xName[i], strlen(xName[i]));
 	}
 }
