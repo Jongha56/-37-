@@ -27,7 +27,7 @@ void JeongJongha::update(void)
 
 void JeongJongha::render(void)
 {
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 10; i++) { // 0 30 60 90 120 150 180 210 240 270
 		TextOut(getMemDC(), i*30, i * 20, xName[i], strlen(xName[i]));
 	}
 }
