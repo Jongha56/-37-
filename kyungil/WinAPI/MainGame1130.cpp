@@ -10,6 +10,8 @@ HRESULT MainGame1130::init(void)
     _k->init();
     _n = new SeungChan;
     _n->init();
+    _p = new ParkGeonWoo;
+    _p->init();
 
     return S_OK;
 }
@@ -20,6 +22,7 @@ void MainGame1130::release(void)
     SAFE_DELETE(_j);
     SAFE_DELETE(_k);
     SAFE_DELETE(_n);
+    SAFE_DELETE(_p);
 }
 
 void MainGame1130::update(void)
@@ -35,6 +38,7 @@ void MainGame1130::render(void)
     _k->render();
     _j->render();
     _n->render();
+    _p->render();
 
     this->getBackBuffer()->render(getHDC(), 0, 0);
 }
