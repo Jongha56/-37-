@@ -27,8 +27,8 @@ void ParkGeonWoo::update(void)
 
 void ParkGeonWoo::render(void)
 {
-	/*for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 10; i++)
 	{
-		
-	}*/
+		TextOut(getMemDC(), 590 - i * 30, i * 20, xName[i], strlen(xName[i]));
+	}
 }
