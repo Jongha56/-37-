@@ -29,8 +29,8 @@ void MainGame1130::render(void)
 {
     PatBlt(getMemDC(), 0, 0, WINSIZE_X, WINSIZE_Y, BLACKNESS);
 
-    _j->render();
     _k->render();
+    _j->render();
 
     this->getBackBuffer()->render(getHDC(), 0, 0);
 }
