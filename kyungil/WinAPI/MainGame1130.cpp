@@ -8,6 +8,8 @@ HRESULT MainGame1130::init(void)
     _j->init();
     _k = new KimDongKyu;
     _k->init();
+    _n = new SeungChan;
+    _n->init();
 
     return S_OK;
 }
@@ -17,6 +19,7 @@ void MainGame1130::release(void)
     GameNode::release();
     SAFE_DELETE(_j);
     SAFE_DELETE(_k);
+    SAFE_DELETE(_n);
 }
 
 void MainGame1130::update(void)
@@ -31,6 +34,7 @@ void MainGame1130::render(void)
 
     _k->render();
     _j->render();
+    _n->render();
 
     this->getBackBuffer()->render(getHDC(), 0, 0);
 }
