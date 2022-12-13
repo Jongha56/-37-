@@ -7,7 +7,7 @@ HRESULT MainGame1130::init(void)
     _j = new JeongJongha;
     _j->init();
     _k = new KimDongKyu;
-    _j->init();
+    _k->init();
 
     return S_OK;
 }

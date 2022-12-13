@@ -149,6 +149,7 @@
     <ClCompile Include="KeyManager.cpp" />
     <ClCompile Include="KimDongKyu.cpp" />
     <ClCompile Include="MainGame1130.cpp" />
+    <ClCompile Include="ParkGeonWoo.cpp" />
     <ClCompile Include="PixelCollision.cpp" />
     <ClCompile Include="PixelScene.cpp" />
     <ClCompile Include="Stdafx.cpp">
@@ -180,6 +181,7 @@
     <ClInclude Include="KeyManager.h" />
     <ClInclude Include="KimDongKyu.h" />
     <ClInclude Include="MainGame1130.h" />
+    <ClInclude Include="ParkGeonWoo.h" />
     <ClInclude Include="PixelCollision.h" />
     <ClInclude Include="PixelScene.h" />
     <ClInclude Include="RandomFunction.h" />
