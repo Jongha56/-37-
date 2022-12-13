@@ -2,15 +2,13 @@
 #include "GameNode.h"
 #include "JeongJongha.h"
 #include "KimDongKyu.h"
-#include "ParkGeonWoo.h"
-
+#include "SeungChan.h"
 class MainGame1130 : public GameNode
 {
 private:
 	JeongJongha* _j;
 	KimDongKyu* _k;
-	ParkGeonWoo* _p;
-
+	SeungChan* _n;
 public:
 	HRESULT init(void);
 	void release(void);

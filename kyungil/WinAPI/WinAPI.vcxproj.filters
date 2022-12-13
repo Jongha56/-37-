@@ -92,7 +92,7 @@
     </ClCompile>
     <ClCompile Include="JeongJongha.cpp" />
     <ClCompile Include="KimDongKyu.cpp" />
-    <ClCompile Include="ParkGeonWoo.cpp" />
+    <ClCompile Include="SeungChan.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Lesson\수업 내용.txt">
@@ -153,6 +153,6 @@
     </ClInclude>
     <ClInclude Include="JeongJongha.h" />
     <ClInclude Include="KimDongKyu.h" />
-    <ClInclude Include="ParkGeonWoo.h" />
+    <ClInclude Include="SeungChan.h" />
   </ItemGroup>
 </Project>
