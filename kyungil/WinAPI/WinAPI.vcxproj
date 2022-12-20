@@ -150,7 +150,7 @@
     <ClCompile Include="KimDongKyu.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">아니오</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="MainGame1130.cpp" />
+    <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="ParkGeonWoo.cpp" />
     <ClCompile Include="PixelCollision.cpp" />
     <ClCompile Include="PixelScene.cpp" />
@@ -185,7 +185,7 @@
     <ClInclude Include="KimDongKyu.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">아니오</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="MainGame1130.h" />
+    <ClInclude Include="MainGame.h" />
     <ClInclude Include="ParkGeonWoo.h" />
     <ClInclude Include="PixelCollision.h" />
     <ClInclude Include="PixelScene.h" />

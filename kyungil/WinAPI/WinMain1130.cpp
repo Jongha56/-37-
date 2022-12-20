@@ -1,6 +1,5 @@
 #include "Stdafx.h"
-#include "MainGame1130.h"
-#define HW1     0
+#include "MainGame.h"
 
 // # 전역 변수 #
 HINSTANCE _hInstance;
@@ -13,17 +12,7 @@ POINT _ptMouse = { 0, 0 };
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 void setWindowSize(int x, int y, int width, int height);
 
-#if HW1 == 0
-MainGame1130* _mg;
-
-#elif HW1 == 1
-MainGame1129_1* _mg;
-
-#elif HW1 == 2
-MainGame1129_2* _mg;
-
-#endif
-
+MainGame* _mg;
 
 
 #pragma region 윈도우 메인함수의 변수들
@@ -41,11 +30,8 @@ int APIENTRY WinMain(HINSTANCE hInstance,
     int nCmdShow)
 {
 #if HW1 == 0
-    _mg = new MainGame1130();
-#elif HW1 == 1
-    _mg = new MainGame1129_1;
-#elif HW1 == 2
-    _mg = new MainGame1129_2;
+    _mg = new MainGame();
+
 
 #endif
     _hInstance = hInstance;

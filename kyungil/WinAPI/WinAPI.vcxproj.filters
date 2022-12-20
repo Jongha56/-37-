@@ -87,7 +87,7 @@
     <ClCompile Include="TempSoundScene.cpp">
       <Filter>API FrameWork\ExampleClasses\Scene</Filter>
     </ClCompile>
-    <ClCompile Include="MainGame1130.cpp">
+    <ClCompile Include="MainGame.cpp">
       <Filter>MainGame</Filter>
     </ClCompile>
     <ClCompile Include="JeongJongha.cpp" />
@@ -149,7 +149,7 @@
     <ClInclude Include="TempSoundScene.h">
       <Filter>API FrameWork\ExampleClasses\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="MainGame1130.h">
+    <ClInclude Include="MainGame.h">
       <Filter>MainGame</Filter>
     </ClInclude>
     <ClInclude Include="JeongJongha.h" />
